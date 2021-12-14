@@ -1,0 +1,77 @@
+.btns {
+    text-transform: none;
+    font-family: Gilroy;
+}
+
+.linksFont {
+    font-family: Gilroy!important;
+    text-transform: none;
+}
+
+.v-btn:not(.v-btn--round).v-size--x-large {
+    height: 52px;
+    min-width: 180px;
+    padding: 0 23.1111111111px;
+    font-family: Gilroy;
+}
+
+.commonInputs {
+    box-sizing: border-box;
+    border-radius: 18px!important;
+}
+
+.v-dialog--fullscreen {
+    border-radius: 0;
+    margin: 0;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    align-self: self-end!important;
+    justify-content: flex-end!important;
+    max-width: 600px;
+}
+
+.v-application .rounded-lg {
+    border-radius: 15px !important;
+}
+
+
+.commonInputs {
+    opacity: 0.7;
+}
+
+.filterBtn {
+    border-radius: 18px;
+}
+
+.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+.v-data-table>.v-data-table__wrapper>table>thead>tr>td,
+.v-data-table>.v-data-table__wrapper>table>tfoot>tr>td {
+    font-size: 0.875rem;
+    height: 60px;
+    font-family: Gliroy;
+}
+
+.theme--light.v-data-table>.v-data-table__wrapper>table>tbody>tr:not(:last-child)>td:not(.v-data-table__mobile-row),
+.theme--light.v-data-table>.v-data-table__wrapper>table>tbody>tr:not(:last-child)>th:not(.v-data-table__mobile-row) {
+    font-family: Gilroy;
+}
+
+.modalBtnX {
+    background: none!important;
+}
+
+.modalBtnX:hover {
+    background-color: transparent!important;
+}
+
+.modalBtnE {
+    border: 1px solid lightgray;
+}
+
+@media (min-width: 1400px) {
+    .commonInputs {
+        width: 300px;
+    }
+}
